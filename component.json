@@ -1,0 +1,24 @@
+{
+	"name": "container",
+	"version": "0.0.0",
+
+	"repository": "wryk/container",
+	"description": "Inversion of Control container",
+	"keywords": [
+		"inversion", "control", "container",
+		"dependency", "injection",
+		"service", "locator"
+	],
+	"license": "MIT",
+
+	"main": "index.js",
+	"scripts": ["index.js"],
+
+	"development": {
+		"scripts": ["test/index.js"],
+		"dependencies": {
+			"mochajs/mocha": "^1.21.4",
+			"chaijs/chai": "^1.9.1"
+		}
+	}
+}
